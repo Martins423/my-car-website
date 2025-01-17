@@ -1,0 +1,434 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ img{
+  width: 100%;
+ }
+
+
+ .full-page{
+  background-color: rgb(14, 19, 62);
+  height: auto;
+  width: 100%;
+ }
+
+ /* FIRST-SECTION NAVIGATION */
+ #first-section{
+  background-color: rgb(14, 19, 62);
+  height: auto;
+  width: 100%;
+ }
+
+ .nav-container{
+  display: block;
+  align-items: center;
+ }
+
+ .navbar-brand-text{
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  font-style: italic;
+  color: rgb(240, 236, 236);
+  font-weight: 500;
+  padding-bottom: 20px;
+ }
+
+
+ .navbar-brand img{
+  width:20%;
+  
+ }
+
+ .navbar{
+
+ }
+
+ .navbar-brand{
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .collapse{
+ 
+ }
+
+ .navbar-nav {
+  margin: auto;
+  display: block;
+  
+ }
+
+ .navbar-nav .nav-item{
+  margin: 20px;
+  font-size: 12px;
+  font-weight: 400;
+ }
+
+ .navbar-nav .nav-item :hover{
+  color: rgb(238, 172, 5);
+  transition: ease-in 0.5s;
+ }
+
+ .nav-item .nav-link{
+  color: white;
+  transition: ease-in 0.5s;
+ }
+
+ .dropdown-menu .dropdown-item{
+  font-size:12px;
+ }
+
+
+ /* SECOND SECTION */
+#second-section{
+  background-color: rgb(9, 17, 89);
+  /* height: 50px; */
+}
+
+
+.sec-list{
+  list-style: none;
+  display: flex;
+  padding: 10px;
+  
+}
+
+.sec-list a{
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sec-list span{
+  color: orangered;
+}
+
+
+/* THIRD SECTION */
+
+#third-section{
+ padding: 20px;
+}
+
+.third-wrapper{
+
+}
+
+.third-bx1{
+ 
+}
+
+.third-bx2 h6{
+ font-weight: 500;
+ color: orangered;
+ font-size: 18px;
+}
+
+.third-bx2 h1{
+  color: white;
+  font-weight: 500;
+}
+
+.third-bx2 p{
+ font-size: 16px;
+ color: white;
+}
+
+.third-bx2 button{
+ background-color: orangered;
+ font-size: 18px;
+ margin-top: 20px;
+ padding: 5px 13px;
+}
+
+.third-bx2{
+ padding: 20px;
+}
+  
+/* FOURTH SECTION */
+
+.fourth-section{
+  margin-top: 20px;
+}
+
+.fourth-section h6{
+  text-align: center;
+  color: orangered;
+  font-size: 18px;
+}
+
+.fourth-section h1{
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+.fourth-wrapper{
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.fourth-bx1 img{
+ height: 350px;
+ object-fit: cover;
+}
+
+.inside-img{
+  height: 100px;
+  /* border: 1px solid; */
+  background-color: rgb(9, 17, 89);
+  padding: 15px;
+  color: white;
+  font-weight: 300;
+}
+
+/* FIFTH-SECTION */
+.fifth-section{
+  position: relative;
+ }
+
+ .fifth-bx{
+  height: 580px;
+ }
+
+ .fifth-bx img{
+  height: 530px;
+  object-fit: cover;
+ }
+
+ .fifth-text{
+ position: absolute;
+ bottom: 100px;
+ left: 100px;
+ color: white;
+
+ }
+
+ .fifth-text p{
+  color: orangered;
+ }
+
+ .fifth-bx span{
+  font-size: 18px;
+ }
+
+ .fifth-text button{
+  background-color: orangered;
+  color: white;
+  width: 30%;
+ }
+
+
+ 
+ /* TENTH SECTION */
+
+ #tenth-section{
+  position: relative;
+ }
+
+ .tenth-wrapper{
+  position: absolute;
+  top: 70px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ }
+
+ .inner-div{
+  margin-bottom: 80px;
+ }
+
+ .inner-div img{
+  position: relative;
+  width: 200px;
+ }
+
+ .inner-div h2{
+  position: absolute;
+  top: 110px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: orangered;
+ }
+
+
+ .tenth-main{
+  
+ }
+
+ .tenth-1{
+
+ }
+
+ .tenth-2{
+  color: white;
+ }
+
+ .tenth-2 p{
+  font-size: 16px;
+ }
+
+ .tenth-second{
+  color: white;
+ }
+
+ .tenth-bx span{
+  color: orangered;
+ }
+
+ .tenth-bx p{
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.858);
+ }
+
+ .tenth-bx i{
+  color: orangered;
+ }
+
+ .tenth-bx input{
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 15px;
+  background-color: rgb(11, 20, 110);
+  border: none;
+  width: 80%;
+  color: white;
+ }
+
+ .tenth-bx button{
+  text-decoration: none;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  background-color: orangered;
+  color: white;
+  width: 80%;
+ }
+
+ /* ELENTH SECTION */
+  #elevnth-section{
+    background-color: rgb(6, 16, 117);
+  }
+
+
+  .elevnth-wrapper{
+    align-items: center;
+    
+  }
+
+ .list-box{
+  display: flex;
+  list-style: none;
+  color: white;
+  margin: 15px;
+  font-size: 16px;
+ }
+
+ .list-box li{
+  margin: 15px;
+  font-size: 15px;
+ }
+
+ .elevnth-1{
+
+ }
+
+ .elevnth-2{
+  color: white;
+ }
+
+ .elevnth-2 i{
+  font-size: 30px;
+  color: orangered;
+  float: right;
+ }
+
+ /* TWELVETH SECTION */
+ .twelveth-main{
+ 
+ }
+
+ .twelveth-wrapper{
+  color: white;
+ }
+
+ .twelveth-list{
+  list-style: none;
+  display: flex;
+  margin: 10px;
+ }
+
+ .twelveth-list li{
+  font-size: 15px;
+
+ }
+
+ .twelveth-1{
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: 600;
+ }
+
+
+
+
+
+@media screen and (max-width:762px) {
+ 
+  .full-page{
+    background-color: rgb(14, 19, 62);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #first-section{
+    width: 100%;
+  }
+
+  .nav-container{
+    align-content: center;
+  }
+
+  .navbar-toggler{
+    margin-left: 280px;
+    margin-top: -70px;
+  }
+
+  .navbar-brand{
+    margin-left: 0;
+    align-items: center;
+   }
+  
+
+  .caro-bx img{
+    height: 480px;
+    object-fit: cover;
+   }
+  
+   
+  
+   .caro-tx{
+    position: absolute;
+    top:25px;
+    padding: 2px;
+    left: 60px;
+    margin: 5px;
+   }
+
+}

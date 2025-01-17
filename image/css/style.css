@@ -1,0 +1,1121 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+ img{
+  width: 100%;
+ }
+
+
+ .full-page{
+  background-color: rgb(14, 19, 62);
+  height: auto;
+  width: 100%;
+ }
+
+ /* FIRST-SECTION NAVIGATION */
+ #first-section{
+  background-color: rgb(14, 19, 62);
+  height: auto;
+  width: 100%;
+ }
+
+ .nav-container{
+  display: block;
+  align-items: center;
+ }
+
+ .navbar-brand-text{
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  letter-spacing: 4px;
+  font-style: italic;
+  color: rgb(240, 236, 236);
+  font-weight: 500;
+  padding-bottom: 20px;
+ }
+
+
+ .navbar-brand img{
+  width:20%;
+  
+ }
+
+ .navbar{
+
+ }
+
+ .navbar-brand{
+  margin-left: 0;
+  display: flex;
+  align-items: center;
+ }
+
+
+ .collapse{
+ 
+ }
+
+ .navbar-nav {
+  margin: auto;
+  display: block;
+  
+ }
+
+ .navbar-nav .nav-item{
+  margin: 20px;
+  font-size: 12px;
+  font-weight: 400;
+ }
+
+ .navbar-nav .nav-item :hover{
+  color: rgb(238, 172, 5);
+  transition: ease-in 0.5s;
+ }
+
+ .nav-item .nav-link{
+  color: white;
+  transition: ease-in 0.5s;
+ }
+
+ .dropdown-menu .dropdown-item{
+  font-size:12px;
+ }
+
+
+ /* SECOND-SECTION */
+
+ #second-section{
+  position: relative;
+  /* height: 700p; */
+  
+ }
+ 
+
+
+ .caro-bx img{
+  height: 620px;
+  object-fit: cover;
+ }
+
+ 
+
+ .caro-tx{
+  position: absolute;
+  color: white;
+  top:60px;
+  padding: 30px ;
+  left: 180px;
+ }
+
+ .caro-tx h1{
+ margin-bottom: 30px;
+ font-size: 55px;
+ }
+
+ .caro-tx h5{
+  color: orangered;
+  font-size: 18px;
+  
+ }
+
+ .caro-tx p{
+ font-size: 22px;
+ font-weight: 400;
+ color:rgba(245, 245, 245, 0.732);
+ }
+
+ .caro-tx button{
+  width: 110px;
+  background-color: orangered;
+  font-size: 15px;
+  height: 35px;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.69);
+ }
+
+
+ /* THIRD SECTION */
+
+ #third-section{
+ height: auto;
+ }
+
+ .container{
+  margin-top: 2rem;
+ }
+
+ .third-bx-tx{
+
+
+ }
+
+ .wp{
+  align-content: center;
+ }
+
+ .third-bx{
+  
+ }
+
+ .third-bx img{
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+ }
+
+ .third-bx p{
+ color: orangered;
+ }
+
+ .third-bx h2{
+ color: white;
+ }
+
+ .third-bx span{
+  color: white;
+  font-size: 16px;
+  
+ }
+
+ .third-last-bx{
+  padding-top: 18px;
+  
+ }
+
+ .last-bx{
+  margin-left: 20px;
+ 
+ }
+
+
+ .last-bx i{
+  color: orangered;
+ }
+ 
+ .last-bx p{
+  color: white;
+  font-size: 19px;
+ }
+
+ .last-bx span{
+  font-size: 12px;
+ }
+
+ .last-third{
+  margin-top: 5rem;
+ }
+
+ .last-third h1{
+  text-align: center;
+  color: white;
+ }
+
+ .last-third p{
+  color: whitesmoke;
+  text-align: center;
+ }
+ 
+ .img-bx{
+  margin-top: 30px;
+ 
+ }
+
+ .img-wrapper{
+  padding-top: 10px;
+  height: 700px;
+  position: relative;
+  
+ }
+
+ .img-wrapper img{
+  object-fit: cover;
+ 
+ }
+
+ .third-text{
+  position: absolute;
+  /* bottom: 220px; */
+  color: white;
+  padding: 20px;
+  top: 180px;
+  display: block;
+ }
+
+ .third-text h1{
+  font-size: 32px;
+  text-align: center;
+  }
+ 
+  .third-text p{
+   font-size: 18px;
+  }
+ 
+  .third-text button{
+   float: right;
+   background-color: orangered;
+   color: white;
+   font-size: 20px;
+   font-weight: 300px;
+   margin-top: 0px;
+   border: none;
+   width: 20%;
+  }
+
+  .container-2{
+    color: white;
+   }
+
+   .container-2 button{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: 300px;
+    /* margin-top: 20px; */
+    border: none;
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+   }
+
+
+   /* FOURTH-SECTION */
+
+
+ #fourth-section{
+  
+ }
+
+ .container-wp{
+  margin: 30px;
+ }
+
+
+ .fourth-header h1{
+  color: white;
+ }
+
+ .container-3{
+  padding: 30px;
+ }
+
+ .fourth-header p{
+  color: white;
+  font-size: 17px;
+ }
+
+ .fourth-header button{
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  font-size: 19px;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .card{
+  border-radius: none;
+  
+ }
+
+ .card-body{
+  background-color: rgb(14, 19, 62);
+  
+ }
+
+ .card-body p{
+ font-size: 15px;
+ color: white;
+ }
+
+ .card-body span{
+  float: right;
+ }
+
+ .card-body h5{
+  font-size: 18px;
+  color: white;
+ }
+
+ .card-body button{
+ background-color: orangered;
+ border: none;
+ color: white;
+ width: 90px;
+ height: 30px;
+ }
+ 
+
+ /* FIFTH SECTION */
+ #fifth-section{
+  position: relative;
+ }
+
+ .fifth-bx{
+  height: 580px;
+ }
+
+ .fifth-bx img{
+  height: 530px;
+  object-fit: cover;
+ }
+
+ .fifth-text{
+ position: absolute;
+ bottom: 100px;
+ left: 100px;
+ color: white;
+
+ }
+
+ .fifth-text p{
+  color: orangered;
+ }
+
+ .fifth-bx span{
+  font-size: 18px;
+ }
+
+ .fifth-text button{
+  background-color: orangered;
+  color: white;
+  width: 30%;
+ }
+
+
+ /* SIXTH-SECTION */
+ #sixth-section{
+
+ }
+
+ .sixth-container{
+  margin: 0 auto;
+ }
+ 
+ .sixth-container2{
+  margin: auto;
+ }
+
+ .sixth-tx-box h5{
+ font-size: 18px;
+ color: orangered;
+ }
+
+ .sixth-tx-box h1{
+
+ }
+
+ .sixth-tx-box p{
+ font-size: 14px;
+ }
+
+ .sixth-tx-box{
+  color: white;
+ }
+
+ .last-sixth{
+  color: white;
+ }
+
+ .last-sixth h3{
+ font-size: 20px;
+ font-style: bold;
+ }
+
+ .last-sixth h6{
+ color: orangered;
+ }
+
+ .last-sixth P{
+  font-size: 14px;
+ }
+
+ .first-col{
+  flex: 1px;
+  /* border: 3px solid; */
+  margin: 2px ;
+  padding: 30px;
+  color: white;
+  height: 200px;
+  background-color: rgb(4, 13, 93);
+  width: 100px;
+ }
+
+ .first-col h6{
+ color: orangered;
+ font-size: 18px;
+ font-weight: 500;
+ }
+
+ .first-col-wrapper{
+  margin: 10px;
+ }
+
+ .first-col i{
+  font-size: 25px;
+  color: orangered;
+ }
+
+ /* SEVENTH-SECTION */
+
+ #seventh-section{
+  position: relative;
+ }
+
+
+ .main-head{
+
+ }
+
+
+ .seventh-wrapper{
+
+ }
+
+
+ .seventh-1{
+ /* position: relative; */
+
+ }
+
+ .seventh-1 img{
+  height: 580px;
+  object-fit: cover;
+ }
+
+
+ .seventh-2{
+  color: white;
+  position: absolute;
+  left: 728px;
+  top: 15px;
+  /* margin-left: 500px; */
+  /* background-color: red */
+  width: 100%;
+  
+ }
+
+ .seventh-2 h6{
+  color: orangered;
+ }
+ 
+ .seventh-box{
+ /* border: 1px solid; */
+ height: 280px;
+ padding: 10px;
+ background-color: rgb(4, 13, 93);
+ }
+
+ .seventh-box p{
+  margin-top: 20px;
+  font-size: 18px;
+  }
+
+ .seventh-box img{
+  height: 30px;
+  width: 200px;
+  object-fit: cover;
+ }
+
+ .last-box{
+  display: flex;
+  align-items: center;
+ }
+
+ .last-box img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ }
+
+ .last-box p{
+  margin-left: 20px;
+  font-size: 17px;
+ }
+
+ .last-box span{
+  color: orangered;
+ }
+
+ .last-box i{
+  margin-left: 220px;
+  color: orangered;
+  font-size: 40px;
+ }
+
+ /* EIGHT SECTION */
+
+ #eight-section{
+  position: relative;
+ }
+
+ .eight-box1{
+  color: white;
+ }
+ 
+ .eight-box1 h6{
+  font-size: 18px;
+  color: orangered;
+  letter-spacing: 1px;
+  font-weight: 500;
+ }
+
+ .eight-box1 p{
+ font-size: 30px;
+ font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .eight-box1 span button{
+  font-size: 12px;
+  background-color: orangered;
+  color: white;
+  float: right;
+  padding: 6px;
+  
+ }
+
+ .eight-wrapper{
+  margin: 30px;
+  justify-content: center;
+
+ }
+
+ .card{
+  border: 0px solid transparent ;
+  border-color: transparent;
+ }
+
+ .card-body{
+  padding: 30px;
+ }
+
+ 
+ .card-body h5{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.764);
+ }
+
+ 
+ .card-body p{
+  font-size: 15px;
+ }
+
+ #btn{
+  font-size: 13px;
+  position: absolute;
+  top: 1px;
+  left: 228px;
+ }
+
+ /* NINTH SECTION */
+
+ #ninth-section{
+  background-color: rgb(11, 20, 110);
+ }
+
+ .ninth-wrapper{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+ }
+
+ .img-1 img{
+  width: 60px;
+ }
+
+ .img-2 img{
+  width: 100px;
+ }
+
+ .img-3 img{
+  width: 100px;
+ }
+
+ .img-4 img{
+  width: 95px;
+ }
+
+ .img-5 img{
+  width: 100px;
+ }
+
+ .img-6 img{
+  width: 60px;
+ }
+
+ /* TENTH SECTION */
+
+ #tenth-section{
+  position: relative;
+ }
+
+ .tenth-wrapper{
+  position: absolute;
+  top: 70px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+ }
+
+ .inner-div{
+  margin-bottom: 80px;
+ }
+
+ .inner-div img{
+  position: relative;
+  width: 200px;
+ }
+
+ .inner-div h2{
+  position: absolute;
+  top: 110px;
+  color: white;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: orangered;
+ }
+
+
+ .tenth-main{
+  
+ }
+
+ .tenth-1{
+
+ }
+
+ .tenth-2{
+  color: white;
+ }
+
+ .tenth-2 p{
+  font-size: 16px;
+ }
+
+ .tenth-second{
+  color: white;
+ }
+
+ .tenth-bx span{
+  color: orangered;
+ }
+
+ .tenth-bx p{
+  font-size: 14px;
+  font-style: bold;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.858);
+ }
+
+ .tenth-bx i{
+  color: orangered;
+ }
+
+ .tenth-bx input{
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 15px;
+  background-color: rgb(11, 20, 110);
+  border: none;
+  width: 80%;
+  color: white;
+ }
+
+ .tenth-bx button{
+  text-decoration: none;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  font-size: 15px;
+  background-color: orangered;
+  color: white;
+  width: 80%;
+ }
+
+ /* ELENTH SECTION */
+  #elevnth-section{
+    background-color: rgb(6, 16, 117);
+  }
+
+
+  .elevnth-wrapper{
+    align-items: center;
+    
+  }
+
+ .list-box{
+  display: flex;
+  list-style: none;
+  color: white;
+  margin: 15px;
+  font-size: 16px;
+ }
+
+ .list-box li{
+  margin: 15px;
+  font-size: 15px;
+ }
+
+ .elevnth-1{
+
+ }
+
+ .elevnth-2{
+  color: white;
+ }
+
+ .elevnth-2 i{
+  font-size: 30px;
+  color: orangered;
+  float: right;
+ }
+
+ /* TWELVETH SECTION */
+ .twelveth-main{
+ 
+ }
+
+ .twelveth-wrapper{
+  color: white;
+ }
+
+ .twelveth-list{
+  list-style: none;
+  display: flex;
+  float: right;
+ }
+
+ .twelveth-list li{
+  margin: 10px;
+  font-size: 15px;
+ }
+
+ .twelveth-1{
+  font-size: 15px;
+  margin-left: 60px;
+  font-weight: 600;
+ }
+
+
+
+
+
+
+ @media screen and (max-width:762px) {
+
+  .full-page{
+    background-color: rgb(14, 19, 62);
+    height: auto;
+    width: 100%;
+    padding: 20px;
+  }
+
+  #first-section{
+    width: 100%;
+  }
+
+  .nav-container{
+    align-content: center;
+  }
+
+  .navbar-toggler{
+    margin-left: 280px;
+    margin-top: -70px;
+  }
+
+  .navbar-brand{
+    margin-left: 0;
+    align-items: center;
+   }
+  
+
+
+
+  .caro-bx img{
+    height: 480px;
+    object-fit: cover;
+   }
+  
+   
+  
+   .caro-tx{
+    position: absolute;
+    top:25px;
+    padding: 2px;
+    left: 60px;
+    margin: 5px;
+   }
+
+
+   /* THIRD SECTION */
+
+   
+   #third-section{
+   height: auto;
+  }
+ 
+
+   .third-bx img{
+    height: auto;
+    width: 350px;
+    object-fit: cover;
+   }
+
+   .third-text{
+    position: absolute;
+    color: white;
+    padding: 0;
+    top: 30px;
+    text-align: center;
+    left: 60px;
+   }
+
+   .img-wrapper{
+    padding: 10px;
+    height: auto;
+    position: relative;
+    margin: 5px;
+   }
+  
+
+   
+ .img-wrapper img{
+  object-fit: cover;
+  width:320px;
+ }
+
+ .third-text button{
+  float: right;
+  color: white;
+  font-size: 12px;
+  margin-top: 0px;
+  border: none;
+  width: 60%;
+ }
+
+ .container-2{
+   color: white;
+  }
+
+  /* .container-2 button{
+   background-color: orangered;
+   color: white;
+   font-size: 8px;
+   font-weight: 300px;
+   border: none;
+   width: 50px;
+   margin-left: 20px;
+   margin-bottom: 20px;
+  } */
+  
+  .last-third{
+    margin-top: 2rem;
+  
+   }
+
+   .third-text h1{
+    font-size: 18px;
+ 
+    }
+   
+    .third-text p{
+     font-size: 11px;
+    }
+    
+    .container-wp{
+      margin: 20px;
+     }
+    
+    
+     .fourth-header h1{
+      color: white;
+     }
+    
+     .container-3{
+      padding: 10px;
+     }
+
+     .card{
+      border-radius: none;
+      width: 260px;
+      margin: auto;
+     }
+    
+     .card-body{
+      background-color: rgb(14, 19, 62);
+      padding: 0px;
+      
+     }
+
+     .card-img{
+      width: 0px;
+     }
+    
+     .card-main{
+      margin: 35px;
+      
+     }
+
+      /* FIFTH SECTION */
+ #fifth-section{
+  position: relative;
+ }
+
+ .fifth-bx{
+ 
+ }
+
+ .fifth-text{
+ position: absolute;
+ bottom: 10px;
+ left: 10px;
+ color: white;
+ padding: 18px;
+ }
+
+ .fifth-text p{
+  color: orangered;
+ }
+
+ 
+ .fifth-bx{
+  height: auto;
+ }
+
+ .fifth-bx img{
+  height: 420px;
+  /* object-fit: cover; */
+  /* width: 380px; */
+ }
+
+ .fifth-text button{
+  width: 40%;
+ }
+
+
+ /* SIXTH-SECTION */
+ #sixth-section{
+  width: 100%;
+ }
+ 
+ .sixth-container{
+  /* margin: 20px; */
+  /* width: 100%; */
+ }
+ 
+ .sixth-container2{
+  /* width: 100%; */
+ }
+
+ 
+
+ .sixth-tx-box{
+ 
+ }
+
+ 
+
+ .last-sixth P{
+  font-size: 14px;
+ }
+
+ .first-col{
+  flex: 300px;
+  border: 1px solid;
+  padding:10px;
+  height: 250px;
+  
+ }
+
+ 
+
+ .first-col-wrapper{
+    margin: 20px auto;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+ }
+  
+  
+
+ /* SEVENTH-BOX */
+
+
+ #seventh-section{
+  position: relative;
+  width: 100%;
+ }
+
+
+ .main-head{
+ width: 100%;
+ }
+
+ .seventh-1 img{
+  height: 580px;
+  object-fit: cover;
+  width: 100%;
+ }
+
+
+ .seventh-2{
+  color: white;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 100%;
+  padding: 40px;
+ }
+ 
+ .seventh-box{
+ height: auto;
+ padding: 10px;
+ width: 100%;
+ }
+
+ .seventh-box p{
+  margin-top: 20px;
+  font-size: 15px;
+  
+  }
+
+ .seventh-box img{
+  height: 25px;
+  width: 100;
+  object-fit: cover;
+ }
+
+ .last-box i{
+  margin-left: 80px;
+  
+ }
+
+ .last-box{
+  align-items: center;
+ }
+
+ .last-box img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+ }
+
+ .eight-wrapper{
+  margin: 30px;
+  
+
+ }
+
+ .card{
+  border: 0px solid transparent ;
+  border-color: transparent;
+  margin: 10px;
+ }
+
+ }
+ 

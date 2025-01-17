@@ -1,0 +1,232 @@
+ /* THIRD SECTION */
+
+ #third-section{
+
+ }
+
+ .container{
+  margin-top: 2rem;
+ }
+
+ .wp{
+  align-content: center;
+ }
+
+ .third-bx{
+  height: 480px ;
+  display: block;
+ 
+ }
+
+ .third-bx img{
+  height: 480px;
+  object-fit: cover;
+ }
+
+ .third-bx p{
+ color: orangered;
+ }
+
+ .third-bx h2{
+ color: white;
+ }
+
+ .third-bx span{
+  color: white;
+  font-size: 16px;
+  
+ }
+
+ .third-last-bx{
+  padding-top: 18px;
+  
+ }
+
+
+ .last-bx{
+  margin-left: 20px;
+  /* padding-left: 20px; */
+ }
+
+
+ .last-bx i{
+  color: orangered;
+ }
+ 
+ .last-bx p{
+  color: white;
+  font-size: 19px;
+ }
+
+
+ .last-bx span{
+  font-size: 12px;
+ }
+
+ .last-third{
+  margin-top: 5rem;
+ }
+
+ .last-third h1{
+  text-align: center;
+  color: white;
+ }
+
+ .last-third p{
+  color: whitesmoke;
+  text-align: center;
+ }
+ 
+ .img-bx{
+  margin-top: 30px;
+ 
+ }
+
+ .img-wrapper{
+  padding-top: 10px;
+  height: 500px;
+  position: relative;
+ }
+
+ .img-wrapper img{
+  height: 350px;
+  object-fit: cover;
+  filter: opacity(20);
+ }
+
+ .third-text{
+  position: absolute;
+  bottom: 120px;
+  color: white;
+  padding: 30px;
+ }
+
+ .third-text h1{
+ font-size: 43px;
+ text-align: center;
+ }
+
+ .third-text p{
+  font-size: 18px;
+ }
+
+ .third-text button{
+  float: right;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  font-weight: 300px;
+  margin-top: 20px;
+  border: none;
+  width: 20%;
+ }
+
+ 
+ .container-2{
+  color: white;
+ }
+
+ .container-2 h2{
+
+ }
+ 
+
+ .container-2 p{
+
+ }
+
+
+ .container-2 button{
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  font-weight: 300px;
+  /* margin-top: 20px; */
+  border: none;
+  width: 100px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+ }
+
+ /* FOURTH-SECTION */
+
+
+ #fourth-section{
+  
+ }
+
+ .container-wp{
+  margin: 30px;
+ }
+
+
+ .fourth-header h1{
+  color: white;
+ }
+
+ .container-3{
+  padding: 30px;
+ }
+
+ .fourth-header p{
+  color: white;
+  font-size: 17px;
+ }
+
+ .fourth-header button{
+  background-color: orangered;
+  color: white;
+  width: 100px;
+  font-size: 19px;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .card{
+  border-radius: none;
+  
+ }
+
+ .card-body{
+  background-color: rgb(14, 19, 62);
+  
+ }
+
+ .card-body p{
+ font-size: 15px;
+ color: white;
+ }
+
+ .card-body span{
+  float: right;
+ }
+
+ .card-body h5{
+  font-size: 18px;
+  color: white;
+ }
+
+ .card-body button{
+ background-color: orangered;
+ border: none;
+ color: white;
+ width: 90px;
+ height: 30px;
+ }
+
+ /* FIFTH SECTION */
+ #fifth-section{
+  position: relative;
+ }
+
+ .fifth-bx{
+ 
+ }
+
+ .fifth-text{
+ position: absolute;
+ bottom: 350px;
+ left: 100px;
+ color: white;
+
+ }
